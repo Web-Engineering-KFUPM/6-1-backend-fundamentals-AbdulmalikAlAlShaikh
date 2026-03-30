@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 
 
 
@@ -6,7 +7,7 @@ const app = express();
 
 
 
-// TODO 3: Allow React to access the server
+app.use(cors());
 
 
 
